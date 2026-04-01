@@ -1,14 +1,24 @@
+# --- Terraform ---
 .terraform/
-.claude/
 *.tfstate
 *.tfstate.*
-legacy/
-aws_codes.sh
+terraform.tfstate.d/
 *.tfvars
 *.tfvars.json
-
-.env
-.terraform.lock.hcl
 *.log
+crash.log
 
+# --- Segurança e Segredos ---
 *.pem
+.env
+aws_codes.sh
+
+# --- Arquivos Temporários/Legacy ---
+legacy/
+.claude/
+
+# --- Sistema e IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
