@@ -1,8 +1,9 @@
 .terraform/
-
+.claude/
 *.tfstate
 *.tfstate.*
-
+legacy/
+aws_codes.sh
 *.tfvars
 *.tfvars.json
 
